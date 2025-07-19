@@ -1,7 +1,7 @@
 export default function Login() {
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="bg-white border border-gray-400 w-xl py-4 px-8 rounded-lg">
+      <div className="bg-white border border-gray-400 w-[80vw] md:w-[50vw] lg:w-[30vw]  py-4 px-8 rounded-lg">
         <div className="flex justify-center items-center px-6 py-4 border-b border-gray-400">
           <h1 className="text-[#003032] text-2xl font-semibold">
             🩺 NexaHealth
@@ -30,7 +30,7 @@ export default function Login() {
             />
           </div>
           <div className="w-full flex flex-col">
-            <button  className="bg-[#003032] py-2 text-white font-semibold rounded-lg cursor-pointer active:bg-[#c5d67a] active:text-[#003032]">
+            <button className="bg-[#003032] py-2 text-white font-semibold rounded-lg cursor-pointer active:bg-[#c5d67a] active:text-[#003032]">
               <p>LOGIN</p>
             </button>
           </div>
